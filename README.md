@@ -10,7 +10,7 @@ void setup(){
  
  background(255,189,193);
  
- xendsecond=100;
+ xendsecond=90;
  
   yendsecond=0;
   
@@ -73,9 +73,9 @@ void draw(){
  
  theta+=TWO_PI/60;
  
- xendsecond=int(100*cos(theta));
+ xendsecond=int(90*cos(theta));
  
- yendsecond=int(100*sin(theta));
+ yendsecond=int(90*sin(theta));
   
   xendminute=int(70*cos(theta/60));
   
